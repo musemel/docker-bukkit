@@ -7,29 +7,7 @@ Changed to "adoptopenjdk/openjdk12-openj9".
 
 # Simple Tags
 | Tag      | Notes |
-|----------|-------|
-| `1.8`    |       |
-| `1.8.3`  |       |
-| `1.8.7`  | Tag seems to have disppeared from the upstream. This project will no longer build it, but it will remain active for historical purposes. |
-| `1.8.8`  |       |
-| `1.9`    |       |
-| `1.9.2`  |       |
-| `1.9.4`  |       |
-| `1.10`   | Tag seems to have disppeared from the upstream. This project will no longer build it, but it will remain active for historical purposes. |
-| `1.10.2` |       |
-| `1.11`   |       |
-| `1.12`   |       |
-| `1.12.1` |       |
-| `1.12.2` |       |
-| `1.13`   |       |
-| `1.13.1` |       |
-| `1.13.2` |       |
-| `1.14`   |       |
-| `1.14.1` |       |
-| `1.14.2` |       |
-| `1.14.3` |       |
-| `1.14.4` |       |
-| `latest` | Build the latest Spigot jar (1.13.2 at the time of this writing) |
+| `latest` | Build the latest Spigot jar (1.14.4 at the time of this writing) |
 
 # Docker Bukkit
 
