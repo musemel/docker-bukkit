@@ -45,8 +45,4 @@ WORKDIR /data
 ADD entrypoint.sh /root/entrypoint.sh
 ADD configure.py /root/configure.py
 ENTRYPOINT ["/root/entrypoint.sh"]
-ENV PATH $PATH:/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-ENV JAVA_HOME /opt/java/openjdk
-ENV JAVA_TOOL_OPTIONS -XX:+IgnoreUnrecognizedVMOptions -XX:+UseContainerSupport -XX:+IdleTuningCompactOnIdle -XX:+IdleTuningGcOnIdle
-ENV LANG C.UTF-8
 CMD ["spigot"]
