@@ -15,7 +15,7 @@
 #     with this program; if not, write to the Free Software Foundation, Inc.,
 #     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-FROM adoptopenjdk/openjdk12-openj9:alpine as builder
+FROM openjdk:8-alpine as builder
 ARG BUKKIT_VERSION=1.14.4
 LABEL stage=builder
 LABEL build=$BUILD_ID
