@@ -1,6 +1,9 @@
 ### Supported tags and respective `Dockerfile` links
 
-[![Build Status](https://api.travis-ci.org/bbriggs/docker-bukkit.svg?branch=master)](https://travis-ci.org/bbriggs/docker-bukkit)
+[![Build Status](https://api.travis-ci.org/musemel/docker-bukkit.svg?branch=master)](https://travis-ci.org/musemel/docker-bukkit)
+
+# Changes from the original
+Changed to "adoptopenjdk/openjdk12-openj9".
 
 # Simple Tags
 | Tag      | Notes |
